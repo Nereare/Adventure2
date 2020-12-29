@@ -1,0 +1,16 @@
+{
+  "name": "Adventure2",
+  "description": "A random adveture generator for solo players, for D&D 5e.",
+  "version": "0.1.0",
+  "maintainers": [
+    {
+      "name": "Igor Padoim",
+      "email": "igorpadoim@gmail.com",
+      "web": "https://nereare.github.io/"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/Nereare/Adventure2/issues"
+  },
+  "license": "MIT"
+}
