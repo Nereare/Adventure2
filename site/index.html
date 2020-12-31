@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{adventure_name}}</title>
+
+    <!-- Remote Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/getskeleton@2.0.4-2/lib/css/skeleton.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@4.4.95/css/materialdesignicons.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap" />
+    <!-- Local Stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <h1>{{adventure_name}}</h1>
+          <p class="subtitle">&copy; {{adventure_year}} {{meta_author}} &bull; Version {{meta_version}} &bull; {{meta_license}} &bull; Created {{adventure_create}}</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="row">
+        <h2>Welcome to solo D&amp;D adventuring!</h2>
+        <p>This is the output of an automatically generated adventure for <em>Dungeons &amp; Dragons</em> 5<sup>th</sup> Edition. We assume that you will be playing with a single Player Character, whose Class may be whatever you feel like playing!</p>
+        <p>Adding a sidekick is possible, although we would recommend following the Sidekick rules from the <em>Essentials Kit</em>, rather than those presented on <em>Tasha's Cauldron of Everything</em> &ndash; for sidekicks must become more useless as the adventure unfolds and your character grows.</p>
+        <p>Monster presented on this adventure &ndash; which will be shown <strong>in bold letters</strong> for ease of spotting &ndash; are those available under the <em>System Reference Document</em>. We recommend <a href="http://5e.d20srd.org/" target="_blank">this site</a> as an intuitive source.</p>
+        <p>And last, this adventure assumes fairness in play. <em>E.g.</em>, when we ask for a skill check, we will display its Difficulty Class (DC). Try and play as if you did not know this kind of information!</p>
+        <p>For further information about this algorithm, see our <a href="https://github.com/Nereare/Adventure2" target="_blank">repository</a>.</p>
+        <p class="links">
+          <a href="intro.html">Begin your adventure</a>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

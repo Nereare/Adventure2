@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{adventure_name}}</title>
+
+    <!-- Remote Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/getskeleton@2.0.4-2/lib/css/skeleton.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@4.4.95/css/materialdesignicons.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap" />
+    <!-- Local Stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <h1>{{adventure_name}}</h1>
+          <p class="subtitle">&copy; {{adventure_year}} {{meta_author}} &bull; Version {{meta_version}} &bull; {{meta_license}} &bull; Created {{adventure_create}}</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="row">
+        {{content}}
+      </div>
+    </main>
+  </body>
+</html>
