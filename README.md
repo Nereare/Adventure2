@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/github/license/Nereare/Adventure2.svg)](https://github.com/Nereare/Adventure2)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE-OF-CONDUCT.md)
 
-A random adveture generator for solo players, for D&D 5e.
+A random adventure generator for solo players, for D&D 5e.
 
 ## Installing
 

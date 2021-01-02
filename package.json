@@ -1,6 +1,6 @@
 {
   "name": "Adventure2",
-  "description": "A random adveture generator for solo players, for D&D 5e.",
+  "description": "A random adventure generator for solo players, for D&D 5e.",
   "version": "0.1.0",
   "maintainers": [
     {
