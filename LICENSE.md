@@ -1,4 +1,4 @@
-### *Solo Adventure Generator* Copyright 2020 *Igor Padoim* ("Licensor")
+### *Solo Adventure Generator* Copyright 2020-2021 *Igor Padoim* ("Licensor")
 
 # Hippocratic License Version Number: 2.1.
 
