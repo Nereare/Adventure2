@@ -2,7 +2,7 @@ require "date"
 
 class Adventure
   attr_reader :name, :create, :year, :level, :type, :intro, :plot, :author
-  attr_reader :version, :settlements
+  attr_reader :version, :settlement
 
   def initialize(start_type = 'city', start_level = 1, cow = false)
     creation = DateTime.now
@@ -17,7 +17,7 @@ class Adventure
     @author  = "Solo Adventure Generator"
     @version = "0.1.0"
 
-    @settlements = Hash.new
+    @settlement = Settlement.new(@plot)
   end
 
   private
