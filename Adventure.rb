@@ -36,9 +36,12 @@ class Adventure
       'dungeon'
     ]
     if types.include? type
-      return type
+      # return type
+      return 'city'
     else
-      return types[rand(types.length)]
+      # return types[rand(types.length)]
+      # For now the dungeon type will not be implemented, so we use only 'city'
+      return 'city'
     end
   end # set_type()
 
