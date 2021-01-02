@@ -20,24 +20,6 @@ class Adventure
     @settlements = Hash.new
   end
 
-  def add_settlement(id, settlement)
-    if settlement.instance_of? Settlement
-      @settlements.store(id, settlement)
-      return settlement
-    else
-      return nil
-    end
-  end # add_settlement()
-
-  def delete_settlement(id)
-    if @settlements.has_key? id
-      deleted = @settlements.delete id
-      return deleted
-    else
-      return nil
-    end
-  end # delete_settlement()
-
   private
 
   def set_level(level)
