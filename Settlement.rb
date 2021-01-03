@@ -19,7 +19,7 @@ class Settlement
   end # set_name()
 
   def set_description()
-    return "You enter the village and are greeted by its #{["wooden", "stone", "brick"][rand(3)]} buildings."
+    return "You enter the village and are greeted by its #{%w{wooden stone brick}[rand(3)]} buildings."
   end #set_description()
 
   def set_shops()
