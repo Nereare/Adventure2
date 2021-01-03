@@ -80,6 +80,14 @@ header {
   }
 }
 
+ul {
+  text-align: justify;
+  li {
+    list-style-type: none;
+    margin-left: 2em;
+  }
+}
+
 p.links {
   text-align: center;
   font-size: 1.4em;
