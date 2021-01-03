@@ -15,7 +15,7 @@ class Adventure
     @plot    = set_plot(cow)
 
     @author  = "Solo Adventure Generator"
-    @version = "0.1.0"
+    @version = "0.5.0"
 
     @settlement = Settlement.new(@plot)
   end
