@@ -24,3 +24,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - SCSS stylesheet.
 - Settlement class file.
 - Shop class file.
+- Appendix file to be parsed by [The Homebrewery](http://homebrewery.naturalcrit.com/), with game statics for some NPCs:
+  - Magic Shopkeeper;
+  - Temple Keeper.
