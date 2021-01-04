@@ -171,6 +171,7 @@ class Adventure
         'dragon',     # A dragon is threatening the countryside.
         'wizard',     # A mad wizard is seeking to conquer the kingdom.
         'cultists',   # A group of devil-worshiping cultists are seeking to summon their evil lord.
+        'undead',     # Undead are threatening your world.
         'cow'         # A cow is your nemesis!
       ]
       case rand(10) # Since the Cow plot is a special kind, it will have only a 10% chance.
