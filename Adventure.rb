@@ -175,14 +175,10 @@ class Adventure
         "cow"         # A cow is your nemesis!
       ]
       case rand(10) # Since the Cow plot is a special kind, it will have only a 10% chance.
-      when 0..2
-        plot = plots[0]
-      when 3..5
-        plot = plots[1]
-      when 6..8
-        plot = plots[2]
+      when 0..9
+        plot = plots[rand(0..3)]
       else
-        plot = plots[3]
+        plot = plots[4]
       end
     end
     return plot
