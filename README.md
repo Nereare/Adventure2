@@ -8,11 +8,32 @@ A random adventure generator for solo players, for D&D 5e.
 
 ## Installing
 
+### Requirements
+
+- Ruby `3.5.0`;
+- Dart Sass.
+
+### Installation From Source
+
 <!--
 TODO Set installation instructions
 BODY If there is some installation method, define it on the [README file](README.md).
 -->
-1. Foo.
+1. [Download the source](https://github.com/Nereare/Adventure2/archive/master.zip) or [clone the repository](https://github.com/Nereare/Adventure2.git);
+2. Run the schema creating code (see code below);
+3. Create the database file under the main source folder with the name `monsters.db` (see code below);
+4. Parse the SCSS file into CSS (see code below);
+5. ...
+
+#### Command Line Example
+
+```shell
+> ruby path-to-source/database/create_database_schema.rb
+> sqlite3 monsters.db
+sqlite3> .read ./database/monsters.sql
+sqlite3> .quit
+> sass --style=compressed ./site/style.scss ./site/style.css
+```
 
 ## Contributing
 
@@ -39,3 +60,7 @@ This project uses [SemVer](http://semver.org/) for versioning. For the versions 
 [![Hippocratic License](https://i.imgur.com/DEKS3nm.png)](LICENSE.md)
 
 This project is available under the [Hippocratic License](https://firstdonoharm.dev/).
+
+### Acknowledgements
+
+- [The 5th Edition Dungeons and Dragons API](https://www.dnd5eapi.co/), available on [GitHub](https://github.com/bagelbits/5e-database) under the [MIT License](https://opensource.org/licenses/MIT), version `1.0.0`.

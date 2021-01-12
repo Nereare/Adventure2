@@ -27,3 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Appendix file to be parsed by [The Homebrewery](http://homebrewery.naturalcrit.com/), with game statics for some NPCs:
   - Magic Shopkeeper;
   - Temple Keeper.
+- Monsters class file, with correlated database:
+  - Class file deals with retrieving adequate monsters from the database;
+  - Database contains monsters from the D&amp;D SRD, with name, chalange rating, XP, and metadata regarding the adventure generating method;
+  - SQLite3 schema files included.
