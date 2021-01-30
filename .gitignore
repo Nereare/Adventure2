@@ -298,3 +298,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/osx,node,code,linux,grunt,macos,dropbox,windows,sass,yarn,ruby
 
 *.css
+*.ai

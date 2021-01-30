@@ -1,7 +1,7 @@
 {
   "name": "Adventure2",
   "description": "A random adventure generator for solo players, for D&D 5e.",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "maintainers": [
     {
       "name": "Igor Padoim",

@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Adventure class file.
 - Output site:
   - HTML layouts;
+  - Coin SVG models;
   - SCSS stylesheet.
 - Settlement class file.
 - Shop class file.
