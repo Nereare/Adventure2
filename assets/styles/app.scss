@@ -1,0 +1,63 @@
+// Set charset
+@charset "utf-8";
+
+// Non-Bulman imports
+@import "~typeface-montserrat";
+@import "~typeface-roboto-mono";
+@import "~@mdi/font/scss/materialdesignicons.scss";
+
+// Bulma variables
+$family-sans-serif : "Montserrat", sans-serif;
+$family-monospace : "Roboto Mono", monospace;
+$primary : #922610;
+$link : #e69a28;
+$title-color : $primary;
+
+// Bulman imports
+@import "~bulma";
+@import "~bulma-checkradio";
+@import "~bulma-switch";
+@import "~@creativebulma/bulma-divider";
+
+html,
+body {
+  text-align: justify;
+}
+
+input,
+select,
+option,
+textarea {
+  font-family: $family-monospace;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-variant: small-caps;
+}
+
+// Set navburgers to white
+.navbar-burger {
+  color: $white;
+}
+
+// Set short-menu elements to centered
+.navbar-menu {
+  text-align: center;
+}
+
+// Set `.modal-card-foot` DIVs as centered
+.modal-card-foot div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+De-comment this section if ever reimporting CodeMirror plugins
+.CodeMirror-scroll {
+  font-family: $family-monospace;
+  font-size: 0.75rem;
+}
+*/
