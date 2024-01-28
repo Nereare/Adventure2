@@ -1,0 +1,102 @@
+{% extends 'skeleton.html.twig' %}
+
+{% block body %}
+<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="{{ path('homepage') }}">
+      <img src="{{ asset("Icon White.png") }}">
+    </a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="{{ path('posts') }}">
+        <span class="icon-text">
+          <span class="icon">
+            <i class="mdi mdi-file-multiple mdi-18px"></i>
+          </span>
+          <span>Posts</span>
+        </span>
+      </a>
+
+      <a class="navbar-item" href="#">
+        <span class="icon-text">
+          <span class="icon">
+            <i class="mdi mdi-map-plus mdi-18px"></i>
+          </span>
+          <span>Create</span>
+        </span>
+      </a>
+
+      <a class="navbar-item" href="#">
+        <span class="icon-text">
+          <span class="icon">
+            <i class="mdi mdi-dice-d20 mdi-18px"></i>
+          </span>
+          <span>Play</span>
+        </span>
+      </a>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          <span class="icon-text">
+            <span class="icon">
+              <i class="mdi mdi-account mdi-18px"></i>
+            </span>
+            <span>{{ app.user.username }}</span>
+          </span>
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="#">
+            <span class="icon-text">
+              <span class="icon">
+                <i class="mdi mdi-cog mdi-18px"></i>
+              </span>
+              <span>Config</span>
+            </span>
+          </a>
+
+          <a class="navbar-item" href="{{ path('_logout_main') }}">
+            <span class="icon-text">
+              <span class="icon">
+                <i class="mdi mdi-logout mdi-18px"></i>
+              </span>
+              <span>Logout</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+<div class="section">
+  <div class="container">
+    {% block contents %}{% endblock %}
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Adventure</strong>
+      by
+      <a href="https://nereare.com">Igor Padoim</a>.
+    </p>
+    <p>
+      The source code is available under the
+      <a href="https://firstdonoharm.dev/">Hippocratic License</a>.
+    </p>
+  </div>
+</footer>
+{% endblock %}
