@@ -1,0 +1,12 @@
+{% extends "default.html.twig" %}
+
+{% block contents %}
+<div class="box">
+  <h1 class="title is-2 has-text-centered">Oopsie~</h1>
+  <p class="subtitle is-4 has-text-centered">{{ code }}</p>
+
+  <div class="content">
+    {{ message | markdown_to_html }}
+  </div>
+</div>
+{% endblock %}
