@@ -1,6 +1,6 @@
 {
-  "name": "adventure",
-  "description": "Yet another try at creating adventures programatically",
+  "name": "adventure2",
+  "description": "Yet another² try at creating adventures programatically",
   "version": "0.1.0",
   "maintainers": [
     {
@@ -10,7 +10,7 @@
     }
   ],
   "bugs": {
-    "web": "https://github.com/Nereare/adventure/issues"
+    "web": "https://github.com/Nereare/Adventure2/issues"
   },
   "license": "HL3-FULL",
   "dependencies": {

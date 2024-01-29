@@ -1,4 +1,4 @@
-# [Adventure Generator](https://github.com/Nereare/adventure) Changelog
+# [Adventure Generator](https://github.com/Nereare/Adventure2) Changelog
 
 All notable changes to this project will be documented in this file.
 
@@ -17,8 +17,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Pull request.
 - ReadMe file.
 - Changelog file.
-- Base PHP Classes:
-  - Room;
-  - Item;
-  - Loot;
-  - Challenge.
